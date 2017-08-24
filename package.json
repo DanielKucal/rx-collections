@@ -1,0 +1,42 @@
+{
+  "name": "rx-collections",
+  "version": "0.1.0",
+  "description": "Reactive versions of Array, Map and Set",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "scripts": {
+    "build": "$(npm bin)/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielKucal/rx-collections.git"
+  },
+  "keywords": [
+    "rxjs",
+    "reactive",
+    "observable",
+    "map",
+    "set",
+    "array",
+    "native",
+    "types",
+    "built-in",
+    "watch",
+    "listen",
+    "changes"
+  ],
+  "author": "Daniel Kucal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielKucal/rx-collections/issues"
+  },
+  "homepage": "https://github.com/DanielKucal/rx-collections#readme",
+  "devDependencies": {
+    "typescript": "~2.3.0"
+  },
+  "dependencies": {
+    "rxjs": "*"
+  }
+}
